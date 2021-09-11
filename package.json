@@ -1,0 +1,33 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franklin-Yao/Web502-m3-w2-d3-assignment.git"
+  },
+  "author": "franklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franklin-Yao/Web502-m3-w2-d3-assignment/issues"
+  },
+  "homepage": "https://github.com/Franklin-Yao/Web502-m3-w2-d3-assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "http-auth": "^4.1.9",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.5",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
